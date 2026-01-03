@@ -1,9 +1,11 @@
-<!DOCTYPE html><html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Minhas Ofertas | Mercado Livre</title>
   <meta name="theme-color" content="#0a0f2c" />
+
   <style>
     *{box-sizing:border-box}
     body{
@@ -42,42 +44,19 @@
       justify-content:center;
       box-shadow:0 6px 18px rgba(255,230,0,.4);
     }
-    h1{
-      font-size:22px;
-      margin:0;
-      letter-spacing:.2px;
-    }
-    .subtitle{
-      font-size:13px;
-      color:#d6d9ff;
-      margin-top:4px;
-    }
-    .badges{
-      display:flex;
-      gap:8px;
-      margin-top:10px;
-      flex-wrap:wrap;
-    }
+    h1{font-size:22px;margin:0}
+    .subtitle{font-size:13px;color:#d6d9ff;margin-top:4px}
+    .badges{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
     .badge{
-      background:rgba(255,230,0,.95);
+      background:#ffe600;
       color:#000;
       font-size:12px;
       padding:7px 12px;
       border-radius:999px;
       font-weight:700;
-      box-shadow:0 4px 10px rgba(255,230,0,.3);
     }
-    .section{
-      margin-top:20px;
-    }
-    .section h2{
-      font-size:15px;
-      margin-bottom:12px;
-      color:#f0f2ff;
-      display:flex;
-      align-items:center;
-      gap:6px;
-    }
+    .section{margin-top:22px}
+    .section h2{font-size:15px;margin-bottom:12px}
     .item{
       display:flex;
       align-items:center;
@@ -88,33 +67,23 @@
       margin-bottom:12px;
       text-decoration:none;
       color:#fff;
-      transition:transform .15s ease, box-shadow .15s ease;
       box-shadow:0 8px 20px rgba(0,0,0,.35);
+      transition:.2s;
     }
     .item:hover{
       transform:translateY(-2px);
       box-shadow:0 14px 28px rgba(0,0,0,.45);
     }
-    .item strong{
-      font-size:15px;
-    }
+    .item strong{font-size:15px}
     .item small{
       color:#b8beff;
       display:block;
       margin-top:4px;
       font-size:12px;
     }
-    .arrow{
-      font-size:20px;
-      opacity:.85;
-    }
     .promo{
       border:1px solid rgba(255,77,77,.7);
       background:linear-gradient(180deg,#1a1030,#120b24);
-      box-shadow:0 10px 26px rgba(255,77,77,.25);
-    }
-    .promo strong{
-      color:#ffb3b3;
     }
     footer{
       text-align:center;
@@ -125,8 +94,12 @@
     }
   </style>
 </head>
-<body>  <div class="app">
-    <div class="card"><div class="header">
+
+<body>
+<div class="app">
+<div class="card">
+
+  <div class="header">
     <div class="logo">ML</div>
     <div>
       <h1>Minhas Ofertas</h1>
@@ -141,67 +114,60 @@
   <!-- OFERTAS EM PROMOÇÃO -->
   <div class="section">
     <h2>🔥 Ofertas em Promoção</h2>
-    <!-- ADICIONE LINKS AQUI -->
-    <a class="item" href="https://mercadolivre.com/sec/2aofNzR" target="_blank">
-  <div>
-    <strong>🎮 PlayStation 5</strong>
-    <small>Console original • Nova geração</small>
-  </div>
-  <div class="arrow">➡️</div>
-</a>
-<a class="item" href="https://mercadolivre.com/sec/2ynJhfH" target="_blank">
-  <div>
-    <strong>🎮 Nintendo Switch 2 – Bundle</strong>
-    <small>Console + jogos/acessórios</small>
-  </div>
-  <div class="arrow">➡️</div>
-</a>
-<a class="item" href="https://mercadolivre.com/sec/2HDTZEn" target="_blank">
-  <div>
-    <strong>📱 iPhone 16</strong>
-    <small>Original • Novo • Lacrado</small>
-  </div>
-  <div class="arrow">➡️</div>
-</a>
 
+    <a class="item promo" href="https://mercadolivre.com/sec/2aofNzR" target="_blank">
+      <div>
+        <strong>🎮 PlayStation 5</strong>
+        <small>Console original • Nova geração</small>
+      </div>
+      <div>➡️</div>
+    </a>
+
+    <a class="item promo" href="https://mercadolivre.com/sec/2ynJhfH" target="_blank">
+      <div>
+        <strong>🎮 Nintendo Switch 2 – Bundle</strong>
+        <small>Console + jogos/acessórios</small>
+      </div>
+      <div>➡️</div>
+    </a>
+
+    <a class="item promo" href="https://mercadolivre.com/sec/2HDTZEn" target="_blank">
+      <div>
+        <strong>📱 iPhone 16</strong>
+        <small>Original • Novo • Lacrado</small>
+      </div>
+      <div>➡️</div>
+    </a>
   </div>
 
-  <!-- CATEGORIAS / LINKS -->
+  <!-- CATEGORIAS -->
   <div class="section">
     <h2>📦 Categorias & Produtos</h2>
-    <!-- ADICIONE LINKS AQUI -->
+
+    <a class="item" href="https://mercadolivre.com/sec/1KgwutC" target="_blank">
+      <div>
+        <strong>👖 Calça Jeans Masculina</strong>
+        <small>Conforto • Estilo • Dia a dia</small>
+      </div>
+      <div>➡️</div>
+    </a>
+
+    <a class="item" href="https://mercadolivre.com/sec/1gsJiz4" target="_blank">
+      <div>
+        <strong>🛏️ Colchão Inflável</strong>
+        <small>Confortável • Fácil de inflar</small>
+      </div>
+      <div>➡️</div>
+    </a>
+
   </div>
-<a class="item" href="https://mercadolivre.com/sec/1KgwutC" target="_blank">
-  <div>
-    <strong>👖 Calça Jeans Masculina</strong>
-    <small>Conforto • Estilo • Dia a dia</small>
-  </div>
-  <div class="arrow">➡️</div>
-</a>
-<a class="item" href="https://mercadolivre.com/sec/1gsJiz4" target="_blank">
-  <div>
-    <strong>🛏️ Colchão Inflável</strong>
-    <small>Confortável • Fácil de inflar</small>
-  </div>
-  <div class="arrow">➡️</div>
-</a>
-  <!-- MODELO PARA COPIAR E COLAR -->
-  <!--
-  <a class="item promo" href="SEU_LINK_AQUI" target="_blank">
-    <div>
-      <strong>🔥 Oferta Principal</strong>
-      <small>Descrição curta do produto</small>
-    </div>
-    <div class="arrow">➡️</div>
-  </a>
-  -->
 
   <footer>
-    *Este app pode conter links de afiliado. Podemos receber comissão sem custo extra.<br>
+    *Este site pode conter links de afiliado.<br>
     © 2026 • Links do Mercado Livre
   </footer>
 
 </div>
-
-  </div></body>
+</div>
+</body>
 </html>
